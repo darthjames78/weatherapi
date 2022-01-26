@@ -23,7 +23,7 @@ app.get('/weather', async (req : express.Request, res: express.Response) => {
     const lat = Number(req.query['lat'])
     const lon = Number(req.query['lon'])
 
-    var result = await service.getCurrentForecast(lat,lon)
+    const result = await service.getCurrentForecast(lat,lon)
 
     res.status(result.status)
 
