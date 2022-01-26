@@ -1,0 +1,21 @@
+openapi: 3.0.0
+info:
+  title: Weather API
+  description: Retrieves the current weather for the specified location
+  version: 1.0.0
+paths:
+  /weather:
+    get:
+      summary: Retrieves the current weather for the specified location.
+      description: Retrieves the current weather for the specified location.
+      parameters:
+         - name: lat
+           description: Latitude of requested location
+           paramType: query
+           required: true
+           dataType: number
+         - name: lon
+           description: Longitude of requested location
+           paramType: query
+           required: true
+           dataType: number
