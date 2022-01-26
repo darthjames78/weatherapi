@@ -10,7 +10,7 @@ npm run build
 # To test
 npm run test
 
-#To run
+# To run
 npm run start
 
 Service will run at http://localhost:3000 by default. 
