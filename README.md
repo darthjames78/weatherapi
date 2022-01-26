@@ -16,6 +16,6 @@ npm run start
 Service will run at http://localhost:3000 by default. 
 
 # Sample request
-http://localhost:3000?lat=47&lon=-122
+http://localhost:3000/weather?lat=47&lon=-122
 
 
